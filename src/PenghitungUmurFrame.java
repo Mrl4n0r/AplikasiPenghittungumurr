@@ -71,8 +71,10 @@ public class PenghitungUmurFrame extends javax.swing.JFrame {
             }
         });
 
+        txtUmur.setEditable(false);
         txtUmur.setName("txtUmur"); // NOI18N
 
+        txtHariUlangTahunBerikutnya.setEditable(false);
         txtHariUlangTahunBerikutnya.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 txtHariUlangTahunBerikutnyaActionPerformed(evt);
