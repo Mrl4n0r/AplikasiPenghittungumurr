@@ -148,6 +148,7 @@ public class PenghitungUmurFrame extends javax.swing.JFrame {
 
         jPanel3.setBackground(new java.awt.Color(204, 204, 204));
 
+        txtAreaPeristiwa.setEditable(false);
         txtAreaPeristiwa.setColumns(20);
         txtAreaPeristiwa.setRows(5);
         jScrollPane1.setViewportView(txtAreaPeristiwa);
